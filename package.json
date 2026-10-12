@@ -1,0 +1,33 @@
+{
+  "name": "real-jellybeans-theme",
+  "displayName": "REAL Jellybeans",
+  "description": "A VS Code theme faithful to nanotech/jellybeans.vim, with a usable 16-color terminal palette.",
+  "version": "0.1.0",
+  "publisher": "zachary-lee-jaeho",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zachary-Lee-Jaeho/vscode-REAL-jellybeans-theme"
+  },
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "jellybeans",
+    "vim"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "REAL Jellybeans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/real-jellybeans-color-theme.json"
+      }
+    ]
+  }
+}
