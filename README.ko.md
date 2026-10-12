@@ -18,7 +18,7 @@
 | Comment | `#888888` italic | 주석 |
 | Constant | `#cf6a4c` | 숫자, 상수, 불리언 |
 | String | `#99ad6a` | 문자열 |
-| StringDelimiter | `#556633` | 따옴표 |
+| StringDelimiter | `#556633` | Ruby/PHP 따옴표 (다른 언어는 vim과 같이 문자열 색) |
 | Special | `#799d6a` | 이스케이프, 엔티티 |
 | Identifier | `#c6b6ee` | self/this, 문자열 보간 |
 | Statement | `#8197bf` | 키워드, 태그 |

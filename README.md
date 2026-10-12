@@ -18,7 +18,7 @@ A dark VS Code theme that stays as close as possible to the colors of [nanotech/
 | Comment | `#888888` italic | Comments |
 | Constant | `#cf6a4c` | Numbers, constants, booleans |
 | String | `#99ad6a` | Strings |
-| StringDelimiter | `#556633` | Quotes |
+| StringDelimiter | `#556633` | Quotes in Ruby/PHP (other languages use the String color, as in vim) |
 | Special | `#799d6a` | Escapes, entities |
 | Identifier | `#c6b6ee` | self/this, string interpolation |
 | Statement | `#8197bf` | Keywords, tags |

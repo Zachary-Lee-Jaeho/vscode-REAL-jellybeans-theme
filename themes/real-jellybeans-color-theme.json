@@ -211,8 +211,7 @@
       "name": "Comment",
       "scope": [
         "comment",
-        "punctuation.definition.comment",
-        "string.quoted.docstring"
+        "punctuation.definition.comment"
       ],
       "settings": {
         "foreground": "#888888",
@@ -259,11 +258,12 @@
       }
     },
     {
-      "name": "StringDelimiter",
+      "name": "StringDelimiter (only Ruby/PHP link quotes to it in jellybeans.vim)",
       "scope": [
-        "punctuation.definition.string",
-        "punctuation.definition.string.begin",
-        "punctuation.definition.string.end"
+        "punctuation.definition.string.begin.ruby",
+        "punctuation.definition.string.end.ruby",
+        "punctuation.definition.string.begin.php",
+        "punctuation.definition.string.end.php"
       ],
       "settings": {
         "foreground": "#556633"
